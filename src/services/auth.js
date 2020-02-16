@@ -7,7 +7,7 @@ const auth = {
 
   isLogged () {
     console.log(store.token)
-    return store.token !== '' && store.token !== null
+    return store.token !== '' &&   store.token !== null
   },
 
   login (result) {
