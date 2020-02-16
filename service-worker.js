@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ebase/precache-manifest.54fe60c1a8e332add701328d82629598.js"
+  "/ebase/precache-manifest.f37f68ef9ec0029ee3ecebb9b1219037.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "ebase"});
