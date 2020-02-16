@@ -21,6 +21,12 @@ const router = new Router({
       name: 'logout',
       meta: { requiresAuth: true },
       component: () => import(/* webpackChunkName: "logout" */ './views/Logout.vue')
+    },
+    {
+      path: '/northwind-categories',
+      name: 'northind-categories',
+      meta: { requiresAuth: false },
+      component: () => import(/* webpackChunkName: "northwind" */ './views/Northwind/Categories')
     }
   ]
 })
